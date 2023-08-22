@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+.mario {
+    display: flex;
+    flex-direction: column;
+}
+
+.mario .row {
+    display: flex;
+}
+
+.mario .red,
+.mario .no,
+.mario .blue,
+.mario .green,
+.mario .yellow,
+.mario .skin,
+.mario .brown,
+.mario .black {
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+}
+
+.mario .red {
+    background-color: red;
+}
+
+.mario .no {
+    background-color: white;
+}
+
+.mario .blue {
+    background-color: #0505fc;
+}
+
+.mario .green {
+    background-color: green;
+}
+
+.mario .yellow {
+    background-color: #fcfc04;
+}
+
+.mario .skin {
+    background-color: #fcb383;
+}
+
+.mario .brown {
+    background-color: #502d16;
+}
+
+.mario .black {
+    background-color: #291105;
+}
